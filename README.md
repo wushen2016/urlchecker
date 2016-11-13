@@ -66,6 +66,14 @@ an.         _invalid_
 ```
 all these domains are invalid, there are within [PublicSuffix ](https://publicsuffix.org/list/effective_tld_names.dat). So if a domain startswith or endswith '.', it's invalid.
 
+## URL Feature and Suspicious Domain
+
+We want to define suspicious for DOMAIN (yes, not specific urls).
+
+A few feature maybe helpful,  like cnt_hosts, cnt_urls, cnt_hosts / cnt_urls, etc.
+
+
+
 ## CDN Removal
 
 ```
